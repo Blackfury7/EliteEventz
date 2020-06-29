@@ -1,0 +1,24 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F9F7F4;
+}
+
+.container,header{
+    width: 90%;
+    margin: auto;
+}
+
+.section{
+    margin-bottom: 2%;
+}
+
+h1,p,h3{
+    color: rgba(36, 36, 36, 0.808);
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 25vmin;
+}
