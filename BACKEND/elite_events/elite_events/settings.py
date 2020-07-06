@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'events',
     'customers',
     'managers',
+    'cart_element',
     'booking',
+
 
     'corsheaders'
 ]

@@ -11,7 +11,7 @@ def customer_signup(request):
 		data=json.loads(request.body)
 		username=data['username']
 		email=data['email']
-		phone_no=data['phone_no']
+		# phone_no=data['phone_no']
 		print(data)
 		try:
 			
@@ -21,9 +21,9 @@ def customer_signup(request):
 			elif customer.objects.filter(email=email).exists():
 			 
 			    message='This email is already registered'
-			elif customer.objects.filter(phone_no=phone_no).exists():
+			# elif customer.objects.filter(phone_no=phone_no).exists():
 			 
-			    message='This phone is already registered'
+			#     message='This phone is already registered'
 			
 			else:
 			

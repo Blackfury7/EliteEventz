@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: #EBEFF5;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+    background-color: #343A40;
+    color: white;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 150%;
+    justify-content: space-around;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.main{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    margin: auto;
+    padding: 2%;
+}
+
+.detail-sec,.tables{
+    background-color: white;
+    border: 0.2px solid rgb(207, 207, 207);
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: 2.5%;
+}
+.dp{
+    width: 23vmin;
+    height: 23vmin;
+    background-color: rgb(139, 139, 139);
+    border-radius: 50%;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 2%;
+}
+.head{
+    margin-bottom: 2%;
+    border-bottom: 1px solid grey;
+    width: 90%;
+    padding-bottom: 3%;
+    color: #343A40;
+}
+.event{
+    width: 100%;
+}
+
+.edit, button{
+    width: 90%;
+    padding: 1%;
+    color: #17A2B8;
+    border: #17A2B8 solid 1px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.1s ease;
+    outline: none;
+}
+.edit:hover, button:hover{
+    background-color: #17A2B8;
+    color: white;
+    cursor: pointer;
+}
+.table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+th,.total{
+    color: #343A40;
+}
+th, .td{
+    padding: 1.5%;
+    border-bottom: 1px solid grey;
+}
+button{
+    width: 100%;
+    padding: 3%;
+    padding-bottom: 5% ;
+    color: rgb(252, 52, 17);
+    border: 1px solid rgb(252, 52, 17);
+}
+button:hover{
+    background-color: rgb(252, 52, 17);
+    color: white;
+}
+.tables{
+    width: 60%;
+}
+.total{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: none;
+
+}
+.conf{
+    margin-top: 2%;
+    color: rgb(3, 161, 3);
+    border: rgb(3, 161, 3) 1px solid;
+}
+.conf:hover{
+    color: white;
+    background-color: rgb(3, 161, 3);
+}
+
+.admin-table{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.link-next{
+    padding: 1.5%;
+    float: right;
+}
+
+.cont{
+    display: flex;
+
+}
+.booked,.Requests,.Completed{
+    width: 20%;
+    color: white;
+    margin: 2.5%;
+    margin-left: 0;
+    border: 0.2px solid rgba(0, 0, 0, 0.39);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.book-head{
+    background-color: rgb(75, 163, 179);
+    /* border-bottom: 0.2px solid rgba(0, 0, 0, 0.39); */
+    width: 100%;
+    padding: 12%;
+}
+.p{
+    background-color: #4CB4C7;
+
+   font-size: 70px;
+   height: 100%;
+   border:none;
+}
